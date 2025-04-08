@@ -14,12 +14,12 @@ Follow relevant configuration steps for jUnit/TestNg depending on the existing p
 #### Smoke Testing
 Run smoke tests using the `@Smoke` tag:
 ```bash
-mvn test -D"cucumber.filter.tags=@Smoke" -Dbrowser=edge -Denvironment=qa
+mvn -D"cucumber.filter.tags=@Smoke" -Dbrowser=edge -Denvironment=qa clean test
 ```
 #### Regression Testing
 Run smoke tests using the `@Smoke` tag:
 ```bash
-mvn test -D"cucumber.filter.tags=@Smoke" -Dbrowser=edge -Denvironment=qa
+mvn -D"cucumber.filter.tags=@Smoke" -Dbrowser=edge -Denvironment=qa clean test
 ```
 
 #### Execute all tests:
