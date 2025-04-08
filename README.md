@@ -17,9 +17,9 @@ Run smoke tests using the `@Smoke` tag:
 mvn -D"cucumber.filter.tags=@Smoke" -Dbrowser=edge -Denvironment=qa clean test
 ```
 #### Regression Testing
-Run smoke tests using the `@Smoke` tag:
+Run smoke tests using the `@Regression` tag:
 ```bash
-mvn -D"cucumber.filter.tags=@Smoke" -Dbrowser=edge -Denvironment=qa clean test
+mvn -D"cucumber.filter.tags=@Regression" -Dbrowser=edge -Denvironment=qa clean test
 ```
 
 #### Execute all tests:
